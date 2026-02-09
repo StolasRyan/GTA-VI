@@ -1,14 +1,13 @@
 import gsap from "gsap";
 import { ScrollTrigger  } from "gsap/all";
+import Hero from "./components/Hero";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
     <main>
-        <div>
-            <h1 className="text-3xl text-pink">GTA VI by GSAP </h1>
-        </div>
+       <Hero/>
     </main>
   )
 }
