@@ -7,6 +7,8 @@ import Jason from "./components/Jason";
 import SecondVideo from "./components/SecondVideo";
 import Lucia from "./components/Lucia";
 import PostCard from "./components/PostCard";
+import Final from "./components/Final";
+import Outro from "./components/Outro";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -23,6 +25,10 @@ const App = () => {
       <Lucia/>
 
       <PostCard/>
+
+      <Final/>
+
+      <Outro/>
     </main>
   );
 };
