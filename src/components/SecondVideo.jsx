@@ -34,7 +34,7 @@ const SecondVideo = () => {
                 preload='auto'
                 src='/videos/output2.mp4'
                 className='size-full object-cover second-vd'
-                style={{objectPosition: '2 0% 0%'}}
+                style={{objectPosition: '20% 0%'}}
             />
         </div>
     </section>
